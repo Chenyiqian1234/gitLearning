@@ -1,0 +1,21 @@
+-g
+-prefix
+"$(106_107_600FES_V238_ADDDT3)/ldm internal memory with pROM-to-xRAM copy.prefix"
+-ir
+"$(GITLEARNING)/324"
+-ir
+"$(SWMCB_500ES_20180202_V130___¸±±¾)/Application"
+-I-
+-i
+"$(MCUToolsBaseDirEnv)/M56800E Support/msl/MSL_C/MSL_Common/Include"
+-I-
+-i
+"$(MCUToolsBaseDirEnv)/M56800E Support/msl/MSL_C/DSP_56800E/prefix"
+-I-
+-ir
+"$(MCUToolsBaseDirEnv)/M56800E Support"
+-opt space
+-inline nobottomup
+-ldata
+-segchardata
+-requireprotos

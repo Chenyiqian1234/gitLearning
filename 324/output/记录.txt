@@ -1,0 +1,3 @@
+20210728Aldm_pROM-xRAM.elf.S    放能195  不放能190
+
+20210728Bldm_pROM-xRAM.elf.S    放能200  不放能195

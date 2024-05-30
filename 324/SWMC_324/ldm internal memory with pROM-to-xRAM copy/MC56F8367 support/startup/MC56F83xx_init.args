@@ -1,0 +1,14 @@
+-debug
+-ir
+"$(GITLEARNING)/324"
+-ir
+"$(SWMCB_500ES_20180202_V130___¸±±¾)/Application"
+-I-
+-I"$(MCUToolsBaseDirEnv)/M56800E Support/msl/MSL_C/MSL_Common/Include"
+-I-
+-I"$(MCUToolsBaseDirEnv)/M56800E Support/msl/MSL_C/DSP_56800E/prefix"
+-I-
+-ir
+"$(MCUToolsBaseDirEnv)/M56800E Support"
+-data 24
+-prog 19

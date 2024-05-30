@@ -1,0 +1,28 @@
+#define UINT8   unsigned char
+#define UINT16  unsigned int
+#define UINT32  unsigned long
+#define INT8   signed char
+#define INT16  signed int
+#define INT32  signed long
+#define FLOAT32 float
+#define BOOL    unsigned char
+#define TRUE    1
+#define FALSE   0
+#define PI      3.1415926L
+
+typedef struct
+{
+	INT32 Result;
+	INT32 PosLimit;
+	INT32 NegLimit;
+	INT32 E;
+        INT32 E1;
+	INT32 E2;
+	FLOAT32 Kp;
+	FLOAT32 Ki;
+	FLOAT32 Kd;
+        UINT32 Count;
+}PIDparams;
+
+#include "LibFunDefine.h"
+#include "math.h"
